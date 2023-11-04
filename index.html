@@ -10,13 +10,21 @@
 <body>
 </body>
 <script>
-  var xhr = new XMLHttpRequest();  
-xhr.open("GET", 'https://raw.githubusercontent.com/roc9579/roc9579.github.io/main/README.md', true);  
-xhr.onreadystatechange = function () {  
-  if (xhr.readyState == 4 && xhr.status == 200)  
-    console.log(xhr.responseText); // 打印网页的文本内容  
-}  
-xhr.send();
+
+  let arr = new Array();
+  arr[0] = "anjsbcjgdsvhbsajhdgvbhjgbsdbdgbbcdhjsdhgvhbj";
+  arr[1] = "anjsbcjgdsvhbsajhdgvbhjgbsdbdgbbcdhjsdhgvhbj";
+  arr[2] = "anjsbcjgdsvhbsajhdgvbhjgbsdbdgbbcdhjsdhgvhbj";
+  arr[3] = "anjsbcjgdsvhbsajhdgvbhjgbsdbdgbbcdhjsdhgvhbj";
+  arr[4] = "anjsbcjgdsvhbsajhdgvbhjgbsdbdgbbcdhjsdhgvhbj";
+  arr[5] = "anjsbcjgdsvhbsajhdgvbhjgbsdbdgbbcdhjsdhgvhbj";
+  arr[6] = "anjsbcjgdsvhbsajhdgvbhjgbsdbdgbbcdhjsdhgvhbj";
+  arr[7] = "anjsbcjgdsvhbsajhdgvbhjgbsdbdgbbcdhjsdhgvhbj";
+  arr[8] = "anjsbcjgdsvhbsajhdgvbhjgbsdbdgbbcdhjsdhgvhbj";
+  arr[9] = "anjsbcjgdsvhbsajhdgvbhjgbsdbdgbbcdhjsdhgvhbj";
+  console.log(arr);
+  let ran = Math.floor(Math.random() * arr.length) * 1;
+  document.body.innerHTML = arr[ran];
 
 </script>
 
