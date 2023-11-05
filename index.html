@@ -8,7 +8,6 @@
 </head>
 
 <body>
-  <img id="img" src="" alt="图片加载失败">
 </body>
 <script>
 
@@ -188,7 +187,7 @@
   arr[172] = "https://www.z4a.net/images/2023/10/22/wallhaven-1kmlqv.jpg";
   arr[173] = "https://www.z4a.net/images/2023/10/22/wallhaven-13jm39.jpg";
   let ran = Math.floor(Math.random() * arr.length) * 1;
-  document.getElementById("img").src = arr[ran];
+  document.body.innerHTML = arr[ran];
 
 </script>
 
