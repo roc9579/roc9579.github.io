@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title id="t1">Title</title>
 
 </head>
 
@@ -188,6 +188,7 @@
   arr[173] = "https://www.z4a.net/images/2023/10/22/wallhaven-13jm39.jpg";
   let ran = Math.floor(Math.random() * arr.length) * 1;
   document.body.innerHTML = arr[ran];
+  document.getElementById("t1").innerHTML=arr[ran];
 
 </script>
 
